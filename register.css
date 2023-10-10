@@ -1,0 +1,80 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-image:url("hotels.jpg");
+    background-repeat:no-repeat;
+    position: relative;
+}
+section
+{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:1280px;
+}
+.main
+{
+    height:94%;
+    width:53%;
+    background-color:rgba(255, 228, 196, 0.453);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+h1
+{
+    padding-left: 30%;
+    padding-top: 20px;
+}
+h2
+{
+    padding-left: 35%;
+    padding-top:10px;
+}
+label
+{
+    padding-left: 30px;
+    font-size: 22px;
+}
+input[type="text"]
+{
+    font-size: 20px;
+    width:300px;
+}
+input[type="number"]
+{
+    font-size: 20px;
+    width:300px;
+}
+input[type="date"]
+{
+    font-size: 20px;
+    width:200px;
+}
+select
+{
+    font-size: 20px;
+    width:120px; 
+}
+.button
+{
+    padding-left: 35%;
+}
+#btn
+{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(221, 140, 221, 0.8);
+    color:azure;
+}
+.submit
+{
+    padding-left: 40%;
+}
+#butns
+{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color:#ffa8b6;
+}

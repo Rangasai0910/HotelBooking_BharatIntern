@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="register.css" />
+    </head>
+    <body>
+        <section>
+            <div class="main">
+                <form action="submit.html">
+                    <h1>Hotel Booking Registration Form</h1>
+                    <div class="customer">
+                        <h2>--Customer Information--</h2>
+                        <label>Customer Name:  </label>
+                        <input type="text" placeholder="Enter your name" id="name" required />
+                        <br><br>
+                        <label>Check-in Date:  </label>
+                        <input type="date" id="date" required />
+                        <br><br>
+                        <label>Total No Of Days:  </label>
+                        <input type="number" placeholder="No of days spent" id="days" required />
+                        <br><br>
+                        <label>Total No Of Persons:  </label>
+                        <input type="number" placeholder="No of persons" id="person" required />
+                        <br>
+                    </div>
+                    <div class="room">
+                        <h2>--Room Information--</h2>
+                        <label for="rms">Room Type:  </label>
+                        <select class="roomtype" id="rms">
+                        <option value="Delux">Delux</option>
+                        <option value="Suite">Suite</option>
+                       </select>
+                       <br><br>
+                       <label for="ame">Amenities:  </label>
+                       <select name="Amenities type" id="ame">
+                       <option value="AC">AC</option>
+                       <option value="Locker">Locker</option>
+                       </select>
+                    </div>
+                    <div class="advance">
+                        <h2>--Advance Payment--</h2>
+                         <label>Advance Amount:   </label>  
+                        <input type="number" placeholder="Enter advance amount" id="adv" required/>
+                    </div>
+                    <br>
+                    <div class="button">
+                        <input type="button" value="Calculate Total Amount" id="btn" onclick="register()"/>
+                    </div>
+                    <div class="cost">
+                        <h2>--Total Cost Calculation--</h2>
+                        <label for="roomcost">Total Room Cost:   </label>
+                        <input type="number" id="roomcost">
+                        <br><br>
+                        <label for="amen">Total Amenities Cost:   </label>
+                        <input type="number" id="amen">
+                     </div>
+                    <div class="additional">
+                        <h2>--Additional Charges--</h2>
+                        <label>Additional Charges:   </label>
+                        <input type="number" id="additional" />
+                    </div>
+                    <div class="total">
+                        <h2>--Total Cost--</h2>
+                        <label>Total Amount:   </label>
+                        <input type="number" id="amount" />
+                    </div>
+                    <div class="balance">
+                        <h2>--Balance Amount--</h2>
+                        <label>Balance Amount:   </label>
+                        <input type="number" id="balance" />
+                    </div>
+                    <br><br>
+                    <label>
+                        <input type="checkbox"  required>The rooms must be kept neat and clean.I agree the above terms and conditions.
+                    </label>
+                    <br><br>
+                    <div class="submit">
+                        <input type="submit" value="Register"  id="butns" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body
+{
+ margin: 0;
+ padding:0;
+ background-image: url("img.jpg");
+ background-position:fixed ;
+ background-repeat: no-repeat;
+}
+section
+{
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.main
+{
+    background-color: rgba(255, 228, 196, 0.453);
+    border-radius: 10px;
+    height:40%;
+    width:40%;
+    border:1px solid white;
+}
+h1
+{
+    padding-left:25%;
+}
+h2
+{
+    padding-left: 30%;
+}
+h3
+{
+    padding-left:37%;
+    font-size: 22px;
+}
+a
+{
+    padding-left: 38%;
+    font-size: 20px;
+}
